@@ -1,0 +1,10 @@
+[project]
+name = "deep-research-langgraph"
+version = "0.1.0"
+description = "Agente de Investigación Profunda con Ciclo de Reflexión usando LangChain, LangGraph y Google Gemini"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
